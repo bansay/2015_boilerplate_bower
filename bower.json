@@ -1,0 +1,20 @@
+{
+  "name": "2015_boilerplate_bower",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bansay/2015_boilerplate_bower",
+  "authors": [
+    "Brittany <britt.ansay@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "_/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+     "foundation": "~5.4.7"
+  }
+}

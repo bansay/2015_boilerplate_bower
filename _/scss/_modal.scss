@@ -1,0 +1,54 @@
+/////     BASIC MODAL STYLES    /////
+
+/////     .takeover    /////
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: rgba(0,0,0,.7);
+  position: fixed;
+  overflow-y: scroll;
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+  .container {
+    position: relative;
+  }
+  .modal-wrap {
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    position: relative;
+    top: 0;
+    left: 0;
+    .message {
+      position: relative;
+      padding: 55px 40px;
+      z-index: 200;
+      left: -50%;
+      padding: 0 40px 30px;
+      height: auto;
+      margin: 0 auto;
+      left: 0;
+      background: transparent;
+    }
+  }
+}
+
+
+.modal {
+  .figure {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+

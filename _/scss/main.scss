@@ -1,0 +1,39 @@
+// compass imports
+@import "compass";
+// get normal
+@import "normalize";
+
+// depracation values for foundation
+$default-float: left !global;
+$opposite-direction: right !global;
+
+// load foundation parts
+@import "../lib/foundation/scss/foundation/components/_grid.scss";
+
+
+
+
+
+
+
+// definitions
+@import "fonts";
+@import "colors";
+@import "mixins";
+
+// global typography
+@import "typography";
+
+// define the overall styles for templates
+@import "theme";
+
+// misc
+//@import "modal";
+
+// media queries for breakpoints
+@import "mobile";
+
+
+
+
+
