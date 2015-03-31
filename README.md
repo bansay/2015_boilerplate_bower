@@ -11,13 +11,17 @@ Installing gems requires that you have Ruby at least 1.8.3, to check you can run
 * [Sass](http://sass-lang.com) gem install sass
 * [Compass](http://compass-style.org) gem install compass
 
-
 ## To ensure all the counterparts are installed, run
 
 * sass -v
 * npm -v
 * compass -v
 * bower -v
+
+## Download Dependencies with Bower
+
+1. run 'bower install' to install the dependencies (will read the bower.json file, and install into the _/lib directory, as defined on the .bowerrc file)
+
 ## To Compile SCSS with grunt:
 
 1. cd into the themes' app directory, where the gruntfile.js and the package.json files are
