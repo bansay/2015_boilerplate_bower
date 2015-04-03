@@ -2144,7 +2144,6 @@ select {
     left: auto;
   }
 }
-/* @import must be at top of file, otherwise CSS will not work */
 /* line 10, ../scss/_typography.scss */
 body {
   background: blue;
@@ -2182,4 +2181,29 @@ div:not(.content) > ul {
   top: -9999px;
   left: -9999px;
   font-size: 1px;
+}
+
+@media only screen and (min-width: 1400px) {
+  /* line 2, ../scss/_mobile.scss */
+  body {
+    background: Azure;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 50px) {
+  /* line 8, ../scss/_mobile.scss */
+  body {
+    background: Chartreuse;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 50px) {
+  /* line 14, ../scss/_mobile.scss */
+  body {
+    background: Coral;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 50px) {
+  /* line 20, ../scss/_mobile.scss */
+  body {
+    background: Darkslateblue;
+  }
 }

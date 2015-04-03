@@ -1,19 +1,10 @@
 // compass imports
 @import "compass";
-// get normal
+
+// libraries
 @import "normalize";
-
-// depracation values for foundation
-$default-float: left !global;
-$opposite-direction: right !global;
-
-// load foundation parts
 @import "../lib/foundation/scss/foundation/components/_grid.scss";
-
-
-
-
-
+@import "../lib/fontawesome/css/font-awesome.css";
 
 
 // definitions
@@ -21,11 +12,13 @@ $opposite-direction: right !global;
 @import "colors";
 @import "mixins";
 
-// global typography
+// typography
 @import "typography";
 
-// define the overall styles for templates
+// basic theme styles
 @import "theme";
+// reusable module styles
+@import "module";
 
 // misc
 //@import "modal";
